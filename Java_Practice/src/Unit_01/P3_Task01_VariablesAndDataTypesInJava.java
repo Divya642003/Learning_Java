@@ -88,24 +88,24 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		   System.out.println(n);
 		   System.out.println(o);
 		   
-		   System.out.println(ABC.j); //data functions / methods
+		   System.out.println(ABCD.j); //data functions / methods
 		   //ABC.display();
 		   
-		   ABC obj1 = new ABC();
+		   ABCD obj1 = new ABCD();
 		   System.out.println(obj1.i++);
 		   System.out.println(obj1.i);
 		   
-		   ABC obj2 = new ABC();
+		   ABCD obj2 = new ABCD();
 		   System.out.println(obj2.i);
 		   
 		   // System.out.println(obj1.j++);
 		   //System.out.println(obj1.j);
 		   //System.out.println(obj2.j);
 		   
-		 System.out.println(ABC.j++);  
-		 System.out.println(ABC.j);
+		 System.out.println(ABCD.j++);  
+		 System.out.println(ABCD.j);
 		 
-		 ABC.typeConversionAndTypeCasting();
+		 ABCD.typeConversionAndTypeCasting();
 	}
 
 	 int r = 10;
@@ -115,6 +115,18 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		 System.out.println("This is Display Method ! ");
 		 System.out.println(a);
 	 }
+}
+
+class ABCD{
+	
+	static int j = 10; //class variable / static variable
+	int i = 10; //Instance Variable
+	
+	static void display() {
+		int a = 5;
+		System.out.println("this is display method ");
+		 System.out.println(a);
+	}
 	 
 	 static void typeConversionAndTypeCasting() {
 		 double f; //64 slots
