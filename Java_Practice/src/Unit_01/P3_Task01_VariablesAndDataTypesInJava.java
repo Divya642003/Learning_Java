@@ -89,7 +89,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		   System.out.println(o);
 		   
 		   System.out.println(ABCD.j); //data functions / methods
-		   //ABC.display();
+		   ABCD.display();
 		   
 		   ABCD obj1 = new ABCD();
 		   System.out.println(obj1.i++);

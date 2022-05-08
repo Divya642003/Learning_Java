@@ -1,9 +1,9 @@
-package unit_01;
+package Unit_01;
 
 
 /*
  * Constructor is called when an instance of the class is created
- * At the time of calling of the constructor, memory for the object is allocated in te memory
+ * At the time of calling of the constructor, memory for the object is allocated in the memory
  * It is a special type of method Java
  * 	-Parameterized Constructor
  *  -Default Constructor

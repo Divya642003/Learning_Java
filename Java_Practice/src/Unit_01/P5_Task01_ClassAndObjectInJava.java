@@ -1,4 +1,4 @@
-package unit_01;
+package Unit_01;
 
 public class P5_Task01_ClassAndObjectInJava {
 
@@ -7,7 +7,7 @@ public class P5_Task01_ClassAndObjectInJava {
 		ABC2 obj = new ABC2();
 		
 		obj.display2();
-		obj.display();
+		ABC2.display();
 
 	}
 

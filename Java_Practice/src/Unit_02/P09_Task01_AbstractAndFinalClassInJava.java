@@ -15,7 +15,8 @@ package Unit_02;
  * -(0-100%) abstract methods can be there
  * 
  * Final Class:
- * -The main purpose of using a class being declared as final is to prevent the class from being subclassed. 
+ * -The main purpose of using a class being declared as final is to prevent the class from being 
+ * subclassed. 
  * -If a class is marked as final then no class can inherit any feature from the final class. 
  * -You cannot extend a final class. 
  * -If you try it gives you a compile time error. 

@@ -30,6 +30,7 @@ public class P2_Task02_ConstantsInJava
 		public static void main(String args) 
 		{
 			System.out.println(Pi);
+			System.out.println(args);
 			
 		}
 		
@@ -43,7 +44,7 @@ public class P2_Task02_ConstantsInJava
 
 class NewClass
 {
-		 final double Pi=3.14;
+		 final double Pi=3.18;
 		 
 		 void add(int a,int b) {
 				System.out.println(a + b);

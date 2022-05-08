@@ -1,4 +1,4 @@
-package unit_01;
+package Unit_01;
 
 public class P5_Task02_MethodsInJava {
 
@@ -6,7 +6,7 @@ public class P5_Task02_MethodsInJava {
 		ABC3 obj= new ABC3();
 		
 		//calling display method definition
-		obj.display();
+		ABC3.display();
 		System.out.println(obj.display2());
 
 	}
